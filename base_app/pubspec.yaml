@@ -17,6 +17,9 @@ dependencies:
   module_auth:
     path: '../module_auth'
 
+  module_home:
+    path: '../module_home'
+
   flutter:
     sdk: flutter
 

@@ -49,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
                       child: NasaAppTextFieldWidget(controller: _store.state.controller, isLeft: false)),
                   NasaAppButtonWidget(
                       padding: const EdgeInsets.only(bottom: NasaAppDimens.xxxlg),
-                      onTap: () {},
+                      onTap: _store.openHomePage,
                       child: const Text("Logar").labelLargeBold())
                 ])));
   }
