@@ -1,0 +1,37 @@
+name: base_app
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+
+  module_commons:
+    path: '../module_commons'
+
+  module_welcome:
+    path: '../module_welcome'
+
+  module_auth:
+    path: '../module_auth'
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.example.base_app
+    iosBundleIdentifier: com.example.baseApp

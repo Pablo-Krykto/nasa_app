@@ -1,0 +1,1 @@
+export 'package:module_assets/animations/nasa_animation.dart';

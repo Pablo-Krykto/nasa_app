@@ -1,0 +1,34 @@
+name: module_external_dependencies
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  flutter_modular: 3.4.1+1
+  mobx_triple: 1.1.3+1
+  dio: 4.0.6
+  flutter_triple: 1.2.7+4
+  lottie: ^1.4.0
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.example.module_external_dependencies
+    iosBundleIdentifier: com.example.moduleExternalDependencies
