@@ -30,10 +30,6 @@ class _HomePageState extends State<HomePage> {
             body: PageView(
                 physics: const NeverScrollableScrollPhysics(), controller: _store.state.pageController, children: []),
             bottomNavigationBar: CurvedNavigationBar(
-              height: NasaAppDimens.sm,
-              key: _bottomNavigationKey,
-              index: _store.state.pageSelected,
-              items: [],
-            )));
+                height: NasaAppDimens.sm, key: _bottomNavigationKey, index: _store.state.pageSelected, items: [])));
   }
 }
