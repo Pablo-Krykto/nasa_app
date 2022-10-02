@@ -284,6 +284,9 @@ abstract class NasaAppDimens {
   /// giant = 200
   static const double giant = 200;
 
+  /// xgllg = 215
+  static const double xgllg = 215;
+
   /// xgiant = 220
   static const double xgiant = 220;
 

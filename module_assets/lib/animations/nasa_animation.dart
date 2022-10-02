@@ -1,4 +1,4 @@
-enum NasaAnimation { spaceman, astronaut, rocket }
+enum NasaAnimation { spaceman, astronaut, rocket, planet, neptune, moon }
 
 extension KryktoAnimationExtension on NasaAnimation {
   String get json => "animation/$name.json";
